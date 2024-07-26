@@ -43,13 +43,5 @@ public class AcceptanceTestDrivenAutomationTest {
         loginPage.login("standard_user", "secret_sauce");
         Assertions.assertTrue(new ProductsPage(driver).isLoaded());
     }
-
-
-   /* private WebDriver getDriver() {
-        System.setProperty("webDriver.chrome.driver","resources/chromedriver");
-        return new ChromeDriver();
-
-    }*/
-
 }
 
